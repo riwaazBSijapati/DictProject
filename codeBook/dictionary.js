@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/dict.css", (req, res) => {
-    res.sendFile(__dirname + "/dict.css");
+    res.sendFile(__dirname + "/public/css/dict.css");
 })
 
 app.get("/jQuery.js", (req, res) => {
