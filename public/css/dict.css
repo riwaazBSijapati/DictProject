@@ -1,0 +1,117 @@
+html{
+    font-family: 'Courier New', monospace;
+}
+
+header{
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    border-color: #5fd8f0;
+    top: 0;
+    padding: 5px 5px 0px 5px;
+    background-color: #E6AF2E;
+    width: 100%;
+}
+header img{
+    width:200px;
+}
+
+header h1{
+    font-style: italic;
+    font-size: medium;
+}
+
+body{
+    justify-content: center;
+    width:100%;
+    height:auto;
+    overflow: scroll;
+    max-height: 200px;
+    background-color: #5fd8f0;
+}
+#mainbody{
+    width: auto;
+    height: auto;
+    font-size: 75px;
+    font-weight: bold;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    overflow-y: auto;
+}
+#whatdoes{
+    width:300px;
+}
+
+#textowr{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:200px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bord{
+    width: 20%;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    margin-right: auto;
+}
+#bord:last-child{
+    margin-left:auto;
+}
+#searchBox{
+    outline:none;
+    font-size:45px;
+    color:black;
+    width:60%;
+    height:150px;
+    text-align:center;
+    background: transparent;
+    border:none;
+}
+
+#lookup{
+    margin-top: 20px;
+    background:transparent;
+    border:none;
+    width:400px;
+    height:150px;
+    background-image: url(../img/mean.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+#lookup:hover{
+    background-image: url(../img/mean.png);
+    background-size: 60%;
+}
+#lookup:active{
+    background-image: url(../img/clickmean.png);
+    background-size: 60%;
+}
+
+#search-list{
+    text-align:justify;
+    background-color: #E6AF2E;
+    font-weight: bolder;
+}
+
+#defBorder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+#defBorder:last-child{
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}

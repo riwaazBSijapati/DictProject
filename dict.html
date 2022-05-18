@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dict.css">
+    <script src="./jQuery.js"></script>
+    <script src="./dict.js"></script>
+    <title>DictionaryPage</title>
+</head>
+<body>
+    <header>
+        <img src="./img/dictlogo.png" alt="logo">
+        <h1>~You have a Word | We have its Meaning~</h1>
+    </header>
+    <div id="mainbody">
+        <label for="word"><img id="whatdoes" src="./img/whatdoes.png" alt="whatdoes"></label><br>
+        <div id="textowr">
+            <img src="./img/leftbord.png" alt="lboard" id="bord">
+            <input type="text" onfocus="this.value=''" value = ">Enter Word Here<" name="search" id ="searchBox">
+            <img src="./img/rightbord.png" alt="rboard" id="bord">  
+        </div>
+        <!-- <input type="button" id="lookup" value=""> -->
+        <button id="lookup"></button>
+    </div>
+    <img src="./img/border.png" id="defBorder" alt="borderT">
+    <div id="search-list">
+
+    </div>
+    <img src="./img/border.png" id="defBorder" alt="borderB">
+</body>
+</html>
